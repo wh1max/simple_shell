@@ -5,7 +5,7 @@
 *
 * Return: no return
 */
-void free_buffers(char **buf)
+void free_buffer(char **buf)
 {
 	int i = 0;
 
