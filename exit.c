@@ -9,6 +9,6 @@
 void exit_cmd(char **command, char *line)
 {
 	free(line);
-	free_buffers(command);
+	free_buffer(command);
 	exit(0);
 }
