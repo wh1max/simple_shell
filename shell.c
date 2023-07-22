@@ -20,8 +20,8 @@ int main(int ac, char **av, char *envp[])
 	signal(SIGINT, handle_signal);
 	while (1)
 	{
-		free_buffers(command);
-		free_buffers(paths);
+		free_buffer(command);
+		free_buffer(paths);
 		free(pathcommand);
 		prompt_user();
 		linesize = getline(&line, &bufsize, stdin);
