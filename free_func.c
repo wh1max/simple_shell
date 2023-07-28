@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-* free_buffers - frees buffers
+* free_buffer - frees buffers
 * @buf: buffer to be freed
 *
 * Return: no return
